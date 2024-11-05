@@ -151,7 +151,10 @@ body {
     text-decoration: none; /* Remove o sublinhado */
     font-weight: 600; /* Negrito para maior destaque */
     transition: color 0.3s; /* Transição suave para a mudança de cor */
+    margin: 8px 0; /* Espaçamento vertical igual entre os links */
+    display: block; /* Garante que a margem seja aplicada corretamente */
 }
+
 
 .contact a:hover {
     color: var(--color-destaque); /* Cor ao passar o mouse */
